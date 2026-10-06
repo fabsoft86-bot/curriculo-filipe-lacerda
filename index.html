@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Profissional | Filipe Lacerda</title>
+    <meta name="description" content="Currículo profissional de Filipe Lacerda, com perfil, projetos, experiências e formação acadêmica.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="profile-content">
+                <p class="resume-label">Currículo Profissional</p>
+                <div id="perfil-header" aria-live="polite"></div>
+                <div id="perfil-metricas" class="metrics-grid"></div>
+            </div>
+            <div class="actions">
+                <button id="theme-toggle" class="btn" type="button" aria-pressed="false">🌙 Modo Escuro</button>
+                <button class="btn btn-primary" type="button" onclick="window.print()">🖨️ Exportar PDF</button>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="card" id="perfil-container" aria-labelledby="perfil-heading">
+            <h2 id="perfil-heading">Perfil Profissional</h2>
+            <div id="perfil-resumo"></div>
+        </section>
+        <section class="card" aria-labelledby="experience-heading">
+            <h2 id="experience-heading">Experiência Profissional</h2>
+            <div class="timeline" id="experience-timeline"></div>
+        </section>
+        <section class="card" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Projetos e Portfólio</h2>
+            <input type="search" id="search-input" aria-label="Pesquisar projetos" placeholder="🔍 Pesquisar por tecnologia, projeto ou palavra-chave..." />
+            <p class="instruction">Filtre os projetos por tecnologia ou área:</p>
+            <div class="filter-buttons" id="filter-buttons" role="group" aria-label="Filtrar projetos">
+                <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">Todos</button>
+                <button class="filter-btn" type="button" data-filter="js" aria-pressed="false">JavaScript</button>
+                <button class="filter-btn" type="button" data-filter="web" aria-pressed="false">Aplicações Web</button>
+                <button class="filter-btn" type="button" data-filter="hardware" aria-pressed="false">Hardware / Eletrônica</button>
+            </div>
+            <p class="results-status" id="project-results-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            <p class="empty-state" id="projects-empty" hidden>Nenhum projeto encontrado. Limpe a busca ou escolha outra categoria.</p>
+            <div class="projects-grid" id="projects-grid"></div>
+        </section>
+        <section class="card" aria-labelledby="education-heading">
+            <h2 id="education-heading">Formação Acadêmica</h2>
+            <ul id="education-list"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

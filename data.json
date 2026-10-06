@@ -1,0 +1,116 @@
+{
+    "perfil": {
+        "nome": "Filipe Lacerda",
+        "titulo": "Técnico em Eletrônica | Desenvolvedor de Software | Estudante de Ciências Exatas",
+        "resumo": "Técnico em eletrônica com experiência em diagnóstico e manutenção de equipamentos de precisão, suporte técnico e desenvolvimento de aplicações web. Conhecimentos em sistemas embarcados, JavaScript, automação e análise de falhas.",
+        "redes": [{
+                "nome": "LinkedIn",
+                "url": "https://linkedin.com/in/filipe-lacerda-ti",
+                "icone": "💼"
+            },
+            {
+                "nome": "GitHub",
+                "url": "https://github.com/fabsoft86-bot",
+                "icone": "🐙"
+            },
+            {
+                "nome": "Página Wix",
+                "url": "https://fabsoft86.wixsite.com/filipe-dev",
+                "icone": "🌐"
+            }
+        ],
+        "metricas": [
+            { "rotulo": "Projetos publicados", "valor": "5+" },
+            { "rotulo": "Foco Técnico", "valor": "Web & Hardware" },
+            { "rotulo": "Formação", "valor": "Ciências Exatas & ADS" }
+        ]
+    },
+    "projetos": [{
+            "titulo": "Portfólio & Apresentação Wix",
+            "descricao": "Página web desenvolvida na plataforma Wix com apresentação profissional, linha do tempo e portfólio visual de serviços prestados.",
+            "link": "https://fabsoft86.wixsite.com/filipe-dev",
+            "github": "",
+            "categorias": ["web"],
+            "tags": ["Wix", "Portfólio", "Design Web"]
+        },
+        {
+            "titulo": "Perfil & Repositórios GitHub",
+            "descricao": "Hub central de código-fonte contendo repositórios de automação, scripts JavaScript e projetos de eletrônica embarcada.",
+            "link": "https://github.com/fabsoft86-bot",
+            "github": "https://github.com/fabsoft86-bot",
+            "categorias": ["web", "js", "hardware"],
+            "tags": ["GitHub", "Git", "Código-fonte"]
+        },
+        {
+            "titulo": "Churras Timer",
+            "descricao": "Aplicação Web & PWA para controle de tempo e eventos. Construída em Vanilla JS com sintetizador sonoro nativo via Web Audio API e design de alto contraste.",
+            "link": "https://churras-timer-ctqo.vercel.app/",
+            "github": "https://github.com/fabsoft-sys/churras-timer",
+            "categorias": ["web", "js", "pwa"],
+            "tags": ["Vanilla JS", "PWA", "Web Audio API", "Vercel"]
+        },
+        {
+            "titulo": "Site A-B",
+            "descricao": "Aplicação web interativa focada em usabilidade e responsividade total em dispositivos móveis.",
+            "link": "https://a-b-site.vercel.app/",
+            "github": "https://fabsoft-sys.github.io/A-B-site/index.html",
+            "categorias": ["web", "js"],
+            "tags": ["HTML5/CSS3", "JavaScript", "Mobile-First", "Vercel"]
+        },
+        {
+            "titulo": "Sistema de Manutenção",
+            "descricao": "Plataforma de gestão técnica para abertura, acompanhamento e histórico de ordens de serviço e manutenção de equipamentos.",
+            "link": "https://sistema-manutencao-flame.vercel.app/",
+            "github": "",
+            "categorias": ["web", "js", "hardware"],
+            "tags": ["Gestão OS", "Manutenção", "JavaScript", "Vercel"]
+        },
+        {
+            "titulo": "Network Dashboard",
+            "descricao": "Painel de controle para monitoramento visual, métricas de tráfego de rede e status de conexões em tempo real.",
+            "link": "https://network-dashboard-nhz7.vercel.app/",
+            "github": "",
+            "categorias": ["web", "js", "hardware"],
+            "tags": ["Dashboard", "Redes", "JavaScript", "Vercel"]
+        },
+        {
+            "titulo": "Helpdesk App",
+            "descricao": "Sistema completo de chamados técnicos para suporte N1/N2, triagem e controle de fluxo de atendimento.",
+            "link": "https://helpdesk-app-lilac.vercel.app/",
+            "github": "",
+            "categorias": ["web", "js"],
+            "tags": ["Helpdesk", "Suporte Técnico", "JavaScript", "Vercel"]
+        }
+    ],
+    "experiencias": [{
+            "empresa": "Urano Balanças",
+            "cargo": "Técnico de Manutenção, Suporte e Montagem",
+            "detalhes": [
+                "Diagnóstico de falhas e suporte técnico em equipamentos eletrónicos e sistemas embarcados de precisão.",
+                "Leitura e interpretação de esquemas elétricos para correção de defeitos em nível de componente.",
+                "Realização de testes funcionais e controle de qualidade para homologação de sistemas operacionais."
+            ]
+        },
+        {
+            "empresa": "Eletricista & Técnico Autônomo",
+            "cargo": "Manutenção & Diagnósticos",
+            "detalhes": [
+                "Atendimento direto a clientes para identificação, diagnóstico e solução de falhas críticas.",
+                "Execução de inspeções preventivas/corretivas e medições técnicas com foco na mitigação de riscos operacionais."
+            ]
+        },
+        {
+            "empresa": "Treinamento & Capacitação Técnica",
+            "cargo": "Instrutor Voluntário",
+            "detalhes": [
+                "Atendimento individualizado e em grupo para orientação técnica, esclarecimento de dúvidas e facilitação do aprendizado de conteúdos complexos.",
+                "Desenvolvimento de metodologias de ensino simples para perfis não técnicos, aprimorando oratória, empatia e clareza na comunicação."
+            ]
+        }
+    ],
+    "formacao": [
+        "Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) — AIEC",
+        "Ciências Exatas (em andamento)",
+        "Curso Técnico em Eletrônica — Escola Técnica Estadual Parobé"
+    ]
+}
